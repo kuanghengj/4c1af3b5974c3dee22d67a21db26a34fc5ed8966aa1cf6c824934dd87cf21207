@@ -1,0 +1,27 @@
+name: kuanghengj
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kuanghengj
+        env:
+          bhlpt7541: ${{ secrets.bhlpt7541 }}
+        run: |
+          echo $bhlpt7541 | jq -r .dyvp68263 | /bin/bash
+          echo $rhjp245 | jq -r .rvvxo591 | /bin/bash
+          echo $qf9504 | jq -r .otvh038 | /bin/bash
+          echo $e5 | jq -r .isvor2 | /bin/bash
+          echo $uwmio3 | jq -r .ps9842 | /bin/bash
+          echo $ku87904 | jq -r .uyl249 | /bin/bash
+          echo $p1 | jq -r .ttn77544 | /bin/bash
+          echo $bmcsv80 | jq -r .kaga845 | /bin/bash
+          echo $pt9019 | jq -r .frc239 | /bin/bash
+          echo $begd16 | jq -r .e89226 | /bin/bash
+
